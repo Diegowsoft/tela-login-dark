@@ -28,6 +28,7 @@ main {
 
 .left-login > h1 {
     color: #77ffc0;
+    font-size: 2.5vw;
 }
 
 .login-image {
@@ -111,4 +112,37 @@ main {
 .btn-login:hover {
     background: #58fdbb;
     transition: .7s;
+}
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    * {
+        box-sizing: border-box;
+    }
+    .main-login{
+        flex-direction:column ;
+    }
+    .left-login > h1 {
+        display: none;
+    }
+    .left-login {
+        width:100%;
+        height: auto;
+    }
+    .right-login {
+        width:100%;
+        height: auto;
+    }
+    .left-login-image {
+        width: 50vw;
+    }
+    .card-login {
+        width: 90%;
+    }
 }
