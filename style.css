@@ -132,6 +132,7 @@ main {
         display: none;
     }
     .left-login {
+        order: 2;
         width:100%;
         height: auto;
     }
@@ -139,8 +140,9 @@ main {
         width:100%;
         height: auto;
     }
-    .left-login-image {
-        display: hidden;
+    .login-image {
+        order: 1;
+        /* display: hidden; */
         width: 50vw;
     }
     .card-login {
