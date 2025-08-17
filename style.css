@@ -140,7 +140,7 @@ main {
         height: auto;
     }
     .login-image {
-        display: hidden;
+        display: none;
         width: 50vw;
     }
     .card-login {
