@@ -132,10 +132,12 @@ main {
         display: none;
     }
     .left-login {
+        order: 1; /* astronauta primeiro */
         width:100%;
         height: auto;
     }
     .right-login {
+        order: 2; /* formulário depois */
         width:100%;
         height: auto;
     }
