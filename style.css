@@ -139,9 +139,8 @@ main {
         width:100%;
         height: auto;
     }
-    .login-image {
+    .left-login img {
         display: none;
-        width: 50vw;
     }
     .card-login {
         width: 90%;
